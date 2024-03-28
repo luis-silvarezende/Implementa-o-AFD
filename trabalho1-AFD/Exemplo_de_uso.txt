@@ -1,0 +1,14 @@
+# Exemplo de uso do AFD
+
+1- Colocar a descrição do automato no código-fonte, exatamente como está no exemplo abaixo com os estados, alfabeto, transições, estado inicial e final.
+
+Exemplo de um AFD que reconhece palavras que começam e terminam com 'a' e que tenha pelo menos um 'b'.
+
+estados = {'q0', 'q1', 'q2', 'q3'}
+alfabeto = {'a', 'b'}
+transicoes = {('q0', 'a'): 'q1', ('q1', 'a'): 'q1', ('q1', 'b'): 'q2', ('q2', 'b'): 'q2', ('q2', 'a'): 'q3', ('q3', 'a'): 'q3', ('q3', 'b'): 'q2'}
+estado_inicial = 'q0'
+estados_final = {'q3'}
+
+2- Após isso, bastar dar print no método 'processar_palavra' passando como argumento a palavra que deseja verificar se o AFD aceita ou não.
+3- Para executar o código basta abrir o terminal no diretorio raiz e escrever na linha de comando 'python3 AFD.py'.

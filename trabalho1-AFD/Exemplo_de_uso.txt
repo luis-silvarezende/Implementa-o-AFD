@@ -12,3 +12,5 @@ estados_final = {'q3'}
 
 2- Após isso, bastar dar print no método 'processar_palavra' passando como argumento a palavra que deseja verificar se o AFD aceita ou não.
 3- Para executar o código basta abrir o terminal no diretorio raiz e escrever na linha de comando 'python3 AFD.py'.
+
+GITHUB: https://github.com/luis-silvarezende/Implementa-o-AFD/blob/main/trabalho1-AFD/AFD.py
